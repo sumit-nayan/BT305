@@ -6,7 +6,7 @@
 # 2. Compile the Source Code
 # Navigate to the `src` directory within the Ribosome folder using the terminal. Then, compile the code by running the following command:
 
-f77 -O *.f -o ribosome
+    f77 -O *.f -o ribosome
 
 # This command compiles all Fortran (`.f`) files in the `src` directory and generates an executable named `ribosome`.
 
@@ -14,14 +14,14 @@ f77 -O *.f -o ribosome
 # Copy the compiled `ribosome` executable and the `res.zmat` file from the `src` directory to your working directory. 
 # The working directory is where you will be running the Ribosome program.
 
-cp ribosome res.zmat /path/to/your/working/directory
+    cp ribosome res.zmat /path/to/your/working/directory
 
 # How to Run Ribosome
 
 # 1. Execute the Program
 # In your working directory, run the Ribosome program with the following command:
 
-./ribosome input.rib output.rib res.zmat
+    ./ribosome input.rib output.rib res.zmat
 
 # - `input.rib` is the input file containing the necessary data for Ribosome to process.
 # - `output.rib` is the file where the output will be saved.
